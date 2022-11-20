@@ -1,0 +1,199 @@
+<!--
+    Name: Iesha Alexander
+    Date: October 23, 2022
+    Course: CST8285 Web Programming
+    This is courses.html file for Web programming HTML Assignment 1.
+    This file contains course contents from Algonquin College Computer Programming. It includes a
+    list of courses taken to date, their descriptions, images, search bar and sorting menus. 
+    -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!--Head Section-->
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="author" content="Iesha Alexander">
+    <meta name="description" content="Professional Website">
+    <meta name="keywords" content="HTML, CSS, courses, Java, MySQL, Web, Writing, skills, website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>IeshaAlexander Courses</title>
+   
+
+    <!--External Style Sheet-->
+    <link rel="stylesheet" href="mystyle.css" type="text/css" >
+
+</head>
+
+<!--Body Section-->
+<body>
+
+    <!--Navgivation Content-->
+    <header>
+        <h1>Iesha Alexander </h1>
+
+        <nav class="menu">
+            <a href="index.html">Main</a>
+            <a href="resume.html" >Resume</a>
+            <a href="courses.html">Courses</a>
+        </nav>
+
+    </header>
+
+    <!--Main Section-->
+    <main id="courses">
+        
+        <!--Search Bar-->
+        <div class="resume" id="resume_1"> 
+            <label for="search">Find </label>
+            <input type="text" id="search" name="search" placeholder="Enter a course">
+        </div>
+
+    <!--Form Content-->
+    <form action="/action_page.php">
+
+        <!--Sorting the Courses-->
+        <!--This content found on w3C https://www.w3schools.com/howto/howto_js_filter_elements.asp-->
+        <div id="filter">
+            <button class="btn active" onclick="filterSelection('course')"> Show all</button>
+            <button class="btn" onclick="filterSelection('1')"> Level 1</button>
+            <button class="btn" onclick="filterSelection('2')"> Level 2</button>
+            <button class="btn" onclick="filterSelection('high')"> Highest to low</button>
+            <button class="btn" onclick="filterSelection('low')"> Lowest to high</button>
+        </div>
+
+        <!--List of Courses-->
+        <div class="course_list">
+
+              <!--Term 2 Courses-->
+            <div class="course 2 high">    
+                <h4>CST8284: Object Orientated Programming (Java) </h4>
+                <img class="img3" src="https://www.datasciencecentral.com/wp-content/uploads/2021/10/8667507462.jpeg" alt="OOP Course">
+                <p> 
+                    Working in the field of information technology as a programmer requires a firm understanding of Object-Oriented Programming (OOP) 
+                    concepts. Students explore object-oriented programming methodology using the Java programming language. 
+                    <a class="course_link" href="https://www.algonquincollege.com/sat/program/computer-programming/#courses" target="_blank">More...</a>    
+                </p>
+            </div>
+
+
+            <div class="course 2 high"> 
+                <h4>CST8255: Database Systems</h4>
+                <img class="img3" src="https://images-na.ssl-images-amazon.com/images/I/5119EkWzdTL._AC_UL600_SR600,600_.jpg" alt="Database Course">
+                <p> 
+                    Database systems can automate data processing tasks as well as tie into the security of information technology systems. Students acquire practical 
+                    experience using market-leading object-relational database management systems like MS Access, Oracle and MySQL. 
+                    <a class="course_link" href="https://www.algonquincollege.com/sat/program/computer-programming/#courses" target="_blank">More...</a>        
+                </p>
+            </div>
+            
+            <div class="course 2 high"> 
+                <h4>CST8102: Operating Systems (GNU/Linux)</h4>
+                <img class="img3" src="https://m.media-amazon.com/images/I/51OoRcbvUHL._SX403_BO1,204,203,200_.jpg" alt="Linux Course">
+                <p> Operating systems form the backbone of information technology systems coordinating the interaction between hardware and software.
+                    Students explore the basic concepts and components of Operating Systems (OS), and how they function and interact with hardware and software components.
+                    <a class="course_link" href="https://www.algonquincollege.com/sat/program/computer-programming/#courses" target="_blank">More...</a>
+                </p>
+            </div>
+
+            <div class="course 2 high"> 
+            <h4>CST8285: Web Programming</h4>
+                <img class="img3" src="https://contentstatic.techgig.com/thumb/msid-77313069,width-460,resizemode-4/Top-20-programming-languages-used-for-web-development.jpg?119426" alt="Web Applications Course">
+                <p> The World Wide Web (WWW) has become an integrated part of everyday life. Students develop basic skills of web programming, website design and implementation. JavaScript, HTML5, and PHP are used 
+                    to explore web-based solutions to problems of increasing interactivity and complexity.
+                    <a class="course_link" href="https://www.algonquincollege.com/sat/program/computer-programming/#courses" target="_blank">More...</a>
+                </p>
+            </div>
+
+
+            <div class="course 2 high"> 
+                <h4>GEP1001: Cooperative Education Readiness </h4>
+                <img class="img3" src="https://higherlogicdownload.s3.amazonaws.com/AAPS/0a505cd9-4f5d-4800-8398-a104abb54c96/UploadedImages/AAPSNewsmagazine/July17_ProfessionalDevelopment.jpg" alt="Co-op Course">
+                <p> Students are guided through a series of activities which prepares them for their co-op job search term. Through a detailed orientation students learn the cooperative education program policies
+                    and procedures related to searching and securing a work term opportunity.
+                    <a class="course_link" href="https://www.algonquincollege.com/sat/program/computer-programming/#courses" target="_blank">More...</a>    
+                </p>
+            </div>
+
+            <div class="course 2 high">       
+                <h4>ENL2019: Technical Communication for Engineering Technologies</h4>
+                <img class="img3" src="https://images.presentationgo.com/2020/12/Free-PowerPoint-Templates-PresentationGO.png" alt="Communication Course">
+                <p> 
+                    The ability to communicate effectively in a technically-oriented interdisciplinary workplace is a foundational skill in an innovation-driven economy. 
+                    <a class="course_link" href="https://www.algonquincollege.com/sat/program/computer-programming/#courses" target="_blank">More...</a>    
+                </p>
+            </div>
+
+            <!--Term 1 Courses-->
+            <div class="course 1 low"> 
+                <h4>CST8215: Introduction to Database</h4>
+                <img class="img3" src="https://i.stack.imgur.com/h4XRK.png" alt="Intro to Database Course">
+                <p> Databases are used to store data and are a core component of many information technology systems. Students learn the fundamentals of relational databases design using Entity Relation Diagrams (ERDs),
+                    and use Structured Query Language (SQL) to create, modify and query a database. 
+                    <a class="course_link" href="https://www.algonquincollege.com/sat/program/computer-programming/#courses" target="_blank">More...</a>
+                </p>
+            </div>
+
+            
+            <div class="course 1 low">
+                <h4>CST8116: Introduction to Computer Programming</h4>
+                <img class="img3" src="https://www.smartspate.com/wp-content/uploads/2017/07/Windows-Defender-3-3-640x400.png" alt="Computer Programming Course">
+                <p> Possessing the fundamentals of logic, problem-solving and programming language structure providesintroductory knowledge of computer programming 
+                    with emphasis on problem analysis and design, using algorithms, pseudocode, flowcharts, UML Class Diagrams and testing, with the Java programming language used as a means to implement problem solution designs. 
+                    <a class="course_link" href="https://www.algonquincollege.com/sat/program/computer-programming/#courses" target="_blank">More...</a>    
+                </p>
+            </div>
+
+            <div class="course 1 low">
+                <h4>CST8101: Computer Essentials</h4>
+                <img class="img3" src="https://www.envistaforensics.com/media/qyohwvug/information-technology-hardware-software.jpeg?anchor=center&mode=crop&width=570&height=340&rnd=132767102989670000&format=webp&quality=80" alt="Computer Essentials Course">
+                <p> The essentials of computer software, hardware, and laptop management form the foundation for building further technical programming skills. Learn to configure your laptop 
+                    environment, basic PC and troubleshoot problems.
+                    <a class="course_link" href="https://www.algonquincollege.com/sat/program/computer-programming/#courses" target="_blank">More...</a>
+                </p>
+                </div>
+            
+            <div class="course 1 low">
+                <h4>MATH8001: Technical Mathematics for Computer Science </h4>
+                <img class="img3" src="https://marvel-b1-cdn.bc0a.com/f00000000026007/resilienteducator.com/wp-content/uploads/2012/11/AdobeStock_60467600_cup.jpg" alt="Math Course">
+                <p> The study of algebraic and transcendental functions is an essential prerequisite to Calculus. Students manipulate algebraic expressions, solve algebraic equations 
+                    and linear systems and learn the properties of and graph algebraic and transcendental functions. 
+                    <a class="course_link" href="https://www.algonquincollege.com/sat/program/computer-programming/#courses" target="_blank">More...</a>    
+                </p>
+            </div>
+
+            <div class="course 1 low">       
+                <h4>ENL1813: Communication I</h4>
+                <img class="img3" src="https://images.presentationgo.com/2020/12/Free-PowerPoint-Templates-PresentationGO.png" alt="Communication Course">
+                <p> Communication remains an essential skill sought by employers, regardless of discipline or field of study. 
+                    Using a practical, vocation-oriented approach, students focus on meeting the requirements of effective communication.
+                    <a class="course_link" href="https://www.algonquincollege.com/sat/program/computer-programming/#courses" target="_blank">More...</a>    
+                </p>
+            </div>
+
+            <div class="course 1 low">     
+                <h4>GED2012: Success in the 21st Century</h4>
+                <img class="img3" src="https://www.wimi-teamwork.com/static/medias/comment-travailler-en-e%CC%81quipe.png" alt="Success in 21st Century Course">
+                <p> Rapid changes in technology have created personal and employment choices that challenge 
+                    each of us to find our place as contributing citizens in the emerging society. 
+                    <a class="course_link" href="https://www.algonquincollege.com/sat/program/computer-programming/#courses" target="_blank">More...</a>
+                </p>
+            </div>
+
+
+        </div>
+    </form>
+
+    </main>
+
+    <!--Footer Section-->
+    <footer>
+            
+        <h4>&#169; Portfolio 2022</h4>
+                
+    </footer>  
+</body>
+</html>

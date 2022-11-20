@@ -1,0 +1,195 @@
+<!--
+    Name: Iesha Alexander
+    Date: October 23, 2022
+    Course: CST8285 Web Programming
+    This is resume.html file for Web programming HTML Assignment 1.
+    This file contains resume contents for my objective, courses, experiences, highlighted skills,
+    thumbnails of projects, and awards.  
+    
+    -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Head Section-->
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="author" content="Iesha Alexander">
+    <meta name="description" content="Professional Website">
+    <meta name="keywords" content="HTML, CSS, experiences, portfolio, skills, website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>IeshaAlexander Resume</title>
+
+    <!--External Style Sheet-->
+    <link rel="stylesheet" href="mystyle.css" type="text/css" >
+
+</head>
+
+<!--Body Section-->
+<body>
+
+    <!--Navgivation Content-->
+    <header>
+        <h1>Iesha Alexander </h1>
+
+        <nav class="menu">
+            <a href="index.html">Main</a>
+            <a href="resume.html" >Resume</a>
+            <a href="courses.html">Courses</a>
+        </nav>
+
+    </header>
+
+<!--Main Section-->
+<main>
+
+    <!--Objective Section-->
+    <div class="resume" id="resume_1">
+        <h2>OBJECTIVE</h2>     
+        <p>
+            Seeking valuable a co-op experience for May to December of 2023. I am eager to apply my 
+            current studies as a Computer Programmer, Visual Arts degree and technical work experiences; ranging from knowledge of Java, creating websites to being a Document Preparation Specialist.
+        </p>
+    </div>
+    
+    <!--Education Section-->
+    <div class="resume">  
+        <h2>EDUCATION</h2>
+                
+        <p><span class="title">Computer Programming Co-op</span>, <span class="date"> 2022-present</span> </p>
+        <ul class="nobullet"> 
+            <li>Object-Orientated Programming (Java), Database (MySQL), Operating Systems 
+                    (Windows, Linux, VM Workstation), Technical Writing.
+            </li>
+        </ul>
+
+            
+        <p><span class="title">Bachelor of Visual Arts</span>,  <span class="date">2016-2021</span> </p>
+        <ul class="nobullet">
+            <li>Digital Arts (3D Modelling, Video Editing, Photography), Web programming 
+                    (HTML, CSS, JavaScript), Studio Arts (Oil, Acrylic, Water-based Painting, Charcoal, Graphite, 
+                    Pastel drawing), Technical writing.
+            </li>
+        </ul>  
+
+    </div>
+
+     <!--Programs Section and Lab Projects-->
+    <div class="resume">  
+        <h2>PROGRAM-RELATED SKILLS</h2>
+
+        <p><span class="title">Software:</span> Java, SQL, Windows, Linux, Oracle, Eclipse, UML diagrams, Object flow charts.
+            </p>
+        <p><span class="title">Web:</span> JavaScript, HTML, CSS, PHP, Java programming.
+            </p>
+        <p> <span class="title">Administration:</span> Linux, Windows, VMware, backups/restores, MS Office 365, 
+            </p>
+        
+        <p> <span class="title">Recent Projects: </span> "Event Scheduling" & "Website"
+            </p>
+
+        <!--Lab Project Thumbnails-->
+        <div class="resume" id="thumbnails">   
+       
+            <a target="_blank" href="lab_thumbnail2.jpg">  <img class="img2" src="lab_thumbnail2.jpg" alt="image of web lab"></a>
+            <p class="lab_desc"> EventSchedule Program: This is a project from Object Orientated Programming Week 4. The program was created in Eclipse using Java 8 to print and call method constructors.</p>
+            
+            <a target="_blank" href="lab_thumbnail.jpg">  <img class="img2" src="lab_thumbnail.jpg" alt="image of web lab"></a>
+            <p class="lab_desc"> Website Lab: This is a project from Web Programming Week 3. This website  was created using HTML semantics and CSS styling.</p>
+
+        </div>    
+
+    </div>
+
+    <!--Work Experiences Section -->
+    <div class="resume">
+        <h2>WORK EXPERIENCES</h2>
+        <p>
+        <span class ="title">Document Preparation Specialist </span>| Iron Mountain | <span class="date">Mar 2022-Aug2022</span></p>					      
+        <ul>
+            <li>Process three to ten thousand pages of confidential documents into digital files;</li>
+            <li>Daily duties include using management, editing software, printing, scanning and paper jogger machines.</li>
+            <li>Applying strong-attention to detail, basic understanding of French and ability to long periods in an office environment
+                to successfully preform procedures such as quality control and validation.</li>
+            <li>Pass clearance, adhere to all security measures; while adapting to changing cliental requests.</li>
+                
+        </ul>
+        
+        <p><span class ="title">Deputy Returning Officer </span>| 307 Polling Station | <span class="date">September 2021</span></p>								
+        <ul>
+            <li>Delivered customer service using excellent verbal communication skills with a N-95 mask, while addressing concerns/feedback
+                 a senior facility for the 2021 elections.</li>
+            <li>Responsible for reading and following strict procedures for: building a polling station, filing forms, examining identification,
+                 instructing the public, ensuring confidentiality observed when processing the ballots.</li>
+            <li>Recorded, graphed and applied math skills to accurately capture the total number of ballots for secure submission. </li>
+        </ul>
+        
+        <p><span class ="title">Print and Mailroom Clerk</span>| Peel District School Board | <span class="date">July 2020-Sept 2020</span></p>
+
+        <ul>
+            <li>Assisted printing and distributing COVID-19 orders to over 250 Peel District schools.</li>
+            <li>Daily duties included making reports, sending announcements, entering data, printing and editing, 
+                answering phone calls, attentively review and manually preparing orders for shipment. </li>
+            <li>Regularly maintained sanitary standards and organized inventory. </li>
+        </ul>
+
+        <p><span class ="title">Distribution Assistant</span> | Veritiv | <span class="date">June 2017 – Jan 2019</span></p>
+        <ul>
+            <li>Entered shipment data in database; picked orders using a Radio Frequency scanner; managed warehouse management 
+                software and inventory which included creating and editing Microsoft documents for supervising staff and team leads. </li>
+            <li>Filed orders, prepared picking sheets, created Bill of Landing, made warehouse announcements, operated printer, radio 
+                frequency scanner and resolved technical errors.</li>
+        </ul>        
+
+    </div>
+
+
+   <!--Addition Work Section-->
+    <div class="resume">
+        <h2>ADDITIONAL WORK/VOLUNTEER EXPERIENCES</h2>
+        <span class ="title">Elementary School Volunteer</span>, Toronto & Dufferin Peel <span class="date">Aug 2009 - current</span>
+        <ul>
+            <li>Volunteered at several elementary and middle schools</li>
+            <li>Assisted decorating, teaching, preparing lesson plans, organizing files, creating videos and showcases.</li>
+        </ul>
+        
+        <span class ="title">Water Public Works Student</span>, Region of Peel <span class="date">May 2019 - Aug 2019</span>
+        <ul>
+            <li>Reported daily performance and assisted administration with office tasks i.e. filing documents/data entry as 
+                well as greeted members of the public and used customer service  abilities to answer inquiries. </li>
+            <li>Independently drove a Region of Peel truck to designated zones to paint hydrants, while adhering to Book 7 regulations.</li>
+        </ul>
+        
+    </div>
+
+        <!--Awards and Certificates Section-->
+    <div class="resume" id="awards_list">  
+        <h2>Awards and Certificates</h2>
+
+        <!--Top Row-->
+        <div>
+            <p><span class="title">Reliability Clearance Status</span>, <span class="date">2022</span></p>
+            <p><span class="title">Entry-Level Drinking Water Certification</span>, <span class="date">2022</span></p>
+            <p><span class="title">Biosafety Training</span>, <span class="date">2021</span></p>
+        </div>
+
+        <!--Bottom Row-->
+        <div>
+            <p><span class="title">WHIMIS Safety</span>, <span class="date">2021</span></p>
+            <p><span class="title">Specialized Honors BFA</span> York University <span class="date">2021</span></p>
+            <p><span class="title">G license</span>, <span class="date">2018</span></p>
+        </div>
+    </div>
+
+</main>
+
+    <!--Footer Section-->
+    <footer>    
+        <h4>&#169; Portfolio 2022</h4>
+        
+    </footer>
+
+</body>
+</html>
